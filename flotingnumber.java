@@ -4,8 +4,10 @@ public class MultiplyTwoNumbers {
 
         float first = 1.5f;
         float second = 2.0f;
+        float tri = 2.0f;
+        float four = 2.0f;
 
-        float product = first * second;
+        float product = first * second*tri*four;
 
         System.out.println("The product is: " + product);
     }
